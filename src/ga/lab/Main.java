@@ -153,8 +153,9 @@ public class Main {
             System.out.println(sizeTen);
         }
         else {
-            sizeTen.add("Java");
-            sizeTen.add(sizeTen.size());
+            sizeTen.add("Java" + sizeTen.size());
+            //sizeTen.add(sizeTen.size());
+
             System.out.println(sizeTen);
         }
     }
